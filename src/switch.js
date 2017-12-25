@@ -1,6 +1,6 @@
 /*!
  * Switch Text JavaScript Library v1.0.1
- * https://jquery.com/
+ * https://github.com/nhalstead/Content-Switcher
  *
  * Copyright Noah Halstead and other contributors
  * Released under the MIT license
