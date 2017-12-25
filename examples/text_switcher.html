@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Text Switcher</title>
+    <script>
+      /**
+       * It Works but,I would like to see it in a class with better Use.
+       */
+      /*function changer(className, timeSwitch = 1500, list = ["nothing", "something", "testing"]) {
+        var el = document.getElementsByClassName(className);
+        for (var key in el) {
+          let e = el[key];
+          let n = list[Math.floor(Math.random()*list.length)];
+          e.innerHTML = n;
+        }
+        setTimeout(function(){
+          changer(className, timeSwitch, list, false);
+        }, timeSwitch);
+      }*/
+    </script>
+    <script src="../src/switch.js"></script>
+  </head>
+  <body>
+    <span class="testingSwitch"></span>
+    <script type="text/javascript">
+      var Testing = new contentSwitcher("testingSwitch", 800, ["one", "two", "three", "four" ] );
+      Testing.startSwitching();
+    </script>
+  </body>
+</html>
